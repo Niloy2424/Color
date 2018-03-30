@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_practice_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:background="@drawable/standardcolorback"
+    tools:context="com.example.administrator.color.PracticeColorActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5">
+        <ImageView
+            android:id="@+id/imoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ques"/>
+        <ImageView
+            android:id="@+id/upBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/redbutton_back"
+            android:layout_marginLeft="100dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ineart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+            <ImageView
+                android:id="@+id/greenButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="48dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/redButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="48dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/blueButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="48dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/yellowButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="48dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/limeButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="48dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/whiteButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="48dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".2"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+
+
+            <ImageView
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="48dp"
+                android:id="@+id/maroonStrokeButton" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/silverStrokeButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="48dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/navyStrokeButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="48dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/purpleStrokeButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="48dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/aquaStrokeButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="48dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/blackStrokeButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="48dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_shape_learning"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+   android:background="@drawable/back1"
+    tools:context="com.example.administrator.color.ShapeLearningActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"/>
+
+        <Button
+            android:onClick="standardShapeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="Standard Shape"
+            android:textColor="#0000ff"
+            android:textStyle="bold"
+            android:textSize="28sp"
+android:background="@drawable/shapebuttonback1"
+            android:id="@+id/button"
+
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"/>
+
+        <Button
+            android:onClick="mixedShapeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="Other Shape"
+            android:textColor="#0000ff"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:background="@drawable/shapebuttonback1"
+
+            android:id="@+id/button5" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

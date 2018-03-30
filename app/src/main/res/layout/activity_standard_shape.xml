@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_standard_shape"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:padding="8dp"
+    android:orientation="vertical"
+    android:background="@drawable/back1"
+    tools:context="com.example.administrator.color.StandardShapeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/shapesTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Rectengal"
+            android:visibility="gone"
+            android:textSize="70dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <Button
+                android:id="@+id/rectangleButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/squreshapebuttonback"
+                android:textSize="48dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".1"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/circelButton"
+                android:layout_width="0dp"
+                android:layout_weight=".7"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:background="@drawable/circelshapeback"
+                android:textSize="48dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".1"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/triangleButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:background="@drawable/traiangelshapeback"
+                android:textSize="48dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".1"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/squreButton"
+                android:layout_width="0dp"
+                android:layout_weight="0.76"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:background="@drawable/squreshapebuttonback"
+                android:textSize="48dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".1"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+
+            <Button
+                android:id="@+id/crossButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/crossshapeback"
+                android:textSize="48dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".1"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/ovalButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:background="@drawable/redbutton_back"
+                android:textSize="48dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".1"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/diamondButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:background="@drawable/dimondshapeback"
+                android:textSize="48dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".1"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/hexagonButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:background="@drawable/hexagon"
+                android:textSize="48dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".1"
+                android:layout_height="wrap_content" />
+</LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
